@@ -22,7 +22,6 @@ set tabstop=4
 set softtabstop=4
 
 " Nerdtree
-autocmd vimenter * NERDTree
 let NERDTreeShowBookmarks=1
 let NERDTreeChDirMode=0
 let NERDTreeQuitOnOpen=1
