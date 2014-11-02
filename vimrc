@@ -39,3 +39,6 @@ colorscheme solarized
 
 set guioptions-=T
 set guifont=Inconsolata:h13,Consolas:h12
+
+set splitbelow
+set splitright
