@@ -36,7 +36,6 @@ set background=dark
 colorscheme solarized
 
 " Added by mike
-filetype plugin indent on
 
 set guioptions-=T
 set guifont=Anonymous\ Pro:h12,Consolas:h12
