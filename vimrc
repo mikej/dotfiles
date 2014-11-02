@@ -38,4 +38,4 @@ colorscheme solarized
 " Added by mike
 
 set guioptions-=T
-set guifont=Anonymous\ Pro:h12,Consolas:h12
+set guifont=Inconsolata:h13,Consolas:h12
