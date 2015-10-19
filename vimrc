@@ -40,5 +40,6 @@ colorscheme Tomorrow-Night
 set guioptions-=T
 set guifont=Inconsolata:h13,Consolas:h12
 
+" when splitting put new window below or right of current window
 set splitbelow
 set splitright
