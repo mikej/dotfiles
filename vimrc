@@ -43,3 +43,6 @@ set guifont=Inconsolata:h13,Consolas:h12
 " when splitting put new window below or right of current window
 set splitbelow
 set splitright
+
+" always display status bar
+set laststatus=2
