@@ -1,0 +1,30 @@
+{
+	"animation_enabled": false,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"default_font_size": 12,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"font_face": "Inconsolata",
+	"font_size": 12,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remember_open_files": false,
+	"sidebar_row_padding_medium": true,
+	"status_bar_brighter": true,
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

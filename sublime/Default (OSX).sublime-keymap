@@ -1,0 +1,7 @@
+[
+    { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
+    { "keys": ["super+k", "super+r"], "command": "show_panel", "args": {"panel": "output.find_results"} },
+    { "keys": ["super+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["super+0"], "command": "reset_font_size_to_user_defaults" }
+]

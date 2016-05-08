@@ -1,0 +1,6 @@
+*.swp
+
+# ignore all Package Control files except the main preferences file that lists installed packages
+sublime/Package Control.*
+!sublime/Package Control.sublime-settings
+

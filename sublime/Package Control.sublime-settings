@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ANSIescape",
+		"Better CoffeeScript",
+		"Filter Lines",
+		"Future Funk - Color Scheme",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"LESS",
+		"MoveTab",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Theme - Afterglow",
+		"Theme - El Capitan",
+		"Theme - Sodarized",
+		"Theme - Spacefunk"
+	]
+}
