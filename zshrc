@@ -82,3 +82,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# enable shims and autocompletion for jenv
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
