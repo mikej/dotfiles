@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/mike/.rbenv/shims:/Users/mike/bin:/Users/mike/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
+export PATH="/usr/local/heroku/bin:/Users/mike/.rbenv/shims:/Users/mike/bin:/Users/mike/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -87,3 +87,5 @@ source $ZSH/oh-my-zsh.sh
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+. /Users/mike/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
