@@ -85,3 +85,5 @@ source $ZSH/oh-my-zsh.sh
 #
 # enable shims and autocompletion for jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
