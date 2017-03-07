@@ -26,22 +26,12 @@ let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bzr']
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
- 
 
 set background=dark
 colorscheme Tomorrow-Night
 
-" Added by mike
-
 set guioptions-=T
-set guifont=Inconsolata:h13,Consolas:h12
-
-if has("gui_running")
-  let s:uname = system("uname")
-  if s:uname == "Darwin\n"
-    set guifont=Inconsolata\ for\ Powerline:h15
-  endif
-endif
+set guifont=Inconsolata:h15,Consolas:h12
 
 " when splitting put new window below or right of current window
 set splitbelow
@@ -49,7 +39,3 @@ set splitright
 
 " always display status bar
 set laststatus=2
-
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
