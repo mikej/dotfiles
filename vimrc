@@ -5,6 +5,7 @@ filetype plugin indent on
  
 syntax on
 set number
+set relativenumber
 set hlsearch
 set showmatch
 set incsearch
