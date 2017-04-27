@@ -1,14 +1,22 @@
 {
-	"animation_enabled": false,
+	"always_show_minimap_viewport": true,
+	"animation_enabled": true,
 	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"close_sidebar_if_opened": false,
 	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
-	"default_font_size": 12,
+	"default_font_size": 13,
 	"dictionary": "Packages/Language - English/en_GB.dic",
+	"drag_text": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
-	"font_face": "Inconsolata",
-	"font_size": 12,
+	"font_face": "mononoki",
+	"font_size": 15,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -21,10 +29,16 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
+	"rulers":
+	[
+		120
+	],
 	"sidebar_row_padding_medium": true,
 	"status_bar_brighter": true,
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
