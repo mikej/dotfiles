@@ -8,17 +8,20 @@
 		"ANSIescape",
 		"Better CoffeeScript",
 		"Filter Lines",
-		"Future Funk - Color Scheme",
+		"Focus File on Sidebar",
+		"GitGutter",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
+		"JSHint Gutter",
+		"JSON Reindent",
+		"JSX",
 		"LESS",
 		"MoveTab",
 		"Package Control",
+		"Rake",
 		"Sass",
 		"SideBarEnhancements",
 		"Theme - Afterglow",
-		"Theme - El Capitan",
-		"Theme - Sodarized",
-		"Theme - Spacefunk"
+		"Theme - Sodarized"
 	]
 }
