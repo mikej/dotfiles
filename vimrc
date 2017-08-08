@@ -28,9 +28,6 @@ let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bz
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
 
-set guioptions-=T
-set guifont=Inconsolata:h15,Consolas:h12
-
 " when splitting put new window below or right of current window
 set splitbelow
 set splitright
