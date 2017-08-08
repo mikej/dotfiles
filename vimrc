@@ -40,3 +40,15 @@ set splitright
 
 " always display status bar
 set laststatus=2
+
+packadd minpac
+call minpac#init()
+
+call minpac#add('lifepillar/vim-solarized8')
+call minpac#add('tpope/vim-unimpaired')
+call minpac#add('itchyny/lightline.vim')
+call minpac#add('k-takata/minpac', {'type':'opt'})
+
+" minpac commands:
+command! PackUpdate call minpac#update()
+command! PackClean call minpac#clean()
