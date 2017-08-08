@@ -28,9 +28,6 @@ let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bz
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
 
-set background=dark
-colorscheme Tomorrow-Night
-
 set guioptions-=T
 set guifont=Inconsolata:h15,Consolas:h12
 
@@ -52,3 +49,5 @@ call minpac#add('k-takata/minpac', {'type':'opt'})
 " minpac commands:
 command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
+
+colorscheme solarized8_light
