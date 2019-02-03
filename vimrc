@@ -8,6 +8,7 @@ set number
 set relativenumber
 set hlsearch
 set showmatch
+set matchtime=2
 set incsearch
 set ignorecase
 set autoindent
