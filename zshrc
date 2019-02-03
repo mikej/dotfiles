@@ -84,6 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 alias cat=bat
+
+export EDITOR=/usr/local/bin/vim
 # enable shims and autocompletion for jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
