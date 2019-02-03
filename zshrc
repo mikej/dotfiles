@@ -89,8 +89,24 @@ export EDITOR=/usr/local/bin/vim
 
 # don't clear screen, output ANSI colour escape sequences in raw, exit automatically if content fits on the first screen
 export LESS="-XRF"
+
+alias hap="/Users/mike/Projects/capsule-haproxy/script/server"
+alias be="bundle exec"
+
 # enable shims and autocompletion for jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+autoload -U promptinit; promptinit
+prompt pure
+
+eval "$(nodenv init -)"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# fix out of memory errors when running unit tests
+export SBT_OPTS='-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M -Duser.timezone=GMT'
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 
