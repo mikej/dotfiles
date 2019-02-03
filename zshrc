@@ -86,6 +86,9 @@ source $ZSH/oh-my-zsh.sh
 alias cat=bat
 
 export EDITOR=/usr/local/bin/vim
+
+# don't clear screen, output ANSI colour escape sequences in raw, exit automatically if content fits on the first screen
+export LESS="-XRF"
 # enable shims and autocompletion for jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
