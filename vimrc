@@ -18,16 +18,6 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 
-" Nerdtree
-let NERDTreeShowBookmarks=1
-let NERDTreeChDirMode=0
-let NERDTreeQuitOnOpen=1
-let NERDTreeMouseMode=2
-let NERDTreeShowHidden=1
-let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bzr']
-let NERDTreeKeepTreeInNewTab=1
-let g:nerdtree_tabs_open_on_gui_startup=0
-
 " when splitting put new window below or right of current window
 set splitbelow
 set splitright
