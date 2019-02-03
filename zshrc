@@ -88,4 +88,3 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-. /Users/mike/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
