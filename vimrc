@@ -15,6 +15,7 @@ set autoindent
 set history=1000
 set cursorline
 set expandtab
+
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
