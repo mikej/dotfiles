@@ -47,4 +47,4 @@ call minpac#add('k-takata/minpac', {'type':'opt'})
 command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
 
-colorscheme solarized8_light
+colorscheme solarized8
