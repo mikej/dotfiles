@@ -7,8 +7,8 @@ syntax on
 set number
 set relativenumber
 set hlsearch
-set showmatch
-set matchtime=2
+set showmatch " when a bracket is inserted, briefly jump to the matching one
+set matchtime=2 " time for showmatch in 10ths of a sec, default is 5
 set incsearch
 set ignorecase
 set autoindent
