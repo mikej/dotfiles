@@ -1,2 +1,2 @@
 set guioptions-=T
-set guifont=Inconsolata:h15,Consolas:h12
+set guifont=SF\ Mono:h12,Anonymous\ Pro:h13,Inconsolata:h15,Consolas:h12
