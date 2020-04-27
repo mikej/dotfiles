@@ -56,6 +56,14 @@ plugins=(git zsh-autosuggestions)
 export PATH="/usr/local/heroku/bin:/Users/mike/.rbenv/shims:/Users/mike/bin:/Users/mike/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# For Homebrew completions (for Heroku etc.) https://docs.brew.sh/Shell-Completion
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
