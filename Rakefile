@@ -58,11 +58,11 @@ task :install do
 end
 
 def replace_file(file)
-  # system %Q{rm "$HOME/.#{file}"}
+  system %Q{rm "$HOME/.#{file}"}
   link_file(file)
 end
 
 def link_file(file)
   puts "linking ~/.#{file}"
-  # system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
+  system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
 end
