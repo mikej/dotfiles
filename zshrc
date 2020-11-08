@@ -101,9 +101,6 @@ export LESS="-XRF"
 alias hap="/Users/mike/Projects/capsule-haproxy/script/server"
 alias be="bundle exec"
 
-# enable shims and autocompletion for jenv
-if which jenv > /dev/null; then eval "$(jenv init -)"; fi
-
 # ruby
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
