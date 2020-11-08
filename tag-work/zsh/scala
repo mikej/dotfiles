@@ -1,0 +1,2 @@
+# fix out of memory errors when running unit tests
+export SBT_OPTS='-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M -Duser.timezone=GMT'

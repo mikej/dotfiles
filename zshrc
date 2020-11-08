@@ -53,7 +53,7 @@ plugins=(git zsh-autosuggestions)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/mike/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
+export PATH="/usr/local/heroku/bin:/Users/mike/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # For Homebrew completions (for Heroku etc.) https://docs.brew.sh/Shell-Completion
@@ -98,7 +98,6 @@ export EDITOR=/usr/local/bin/vim
 # don't clear screen, output ANSI colour escape sequences in raw, exit automatically if content fits on the first screen
 export LESS="-XRF"
 
-alias hap="/Users/mike/Projects/capsule-haproxy/script/server"
 alias be="bundle exec"
 
 # ruby
@@ -117,9 +116,6 @@ eval "$(starship init zsh)"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# fix out of memory errors when running unit tests
-export SBT_OPTS='-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xss2M -Duser.timezone=GMT'
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 
 # Dash.app shell trigger from https://gist.github.com//sparksp/6840365
