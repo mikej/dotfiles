@@ -53,7 +53,7 @@ plugins=(git zsh-autosuggestions)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/mike/.rbenv/shims:/Users/mike/bin:/Users/mike/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
+export PATH="/usr/local/heroku/bin:/Users/mike/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/jboss/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # For Homebrew completions (for Heroku etc.) https://docs.brew.sh/Shell-Completion
@@ -104,11 +104,16 @@ alias be="bundle exec"
 # enable shims and autocompletion for jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
+# ruby
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+eval "$(rbenv init -)"
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # autoload -U promptinit; promptinit
 # prompt pure
 
+# node
 eval "$(nodenv init -)"
 
 eval "$(starship init zsh)"
@@ -120,3 +125,7 @@ export SBT_OPTS='-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -X
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 
+# Dash.app shell trigger from https://gist.github.com//sparksp/6840365
+dash() {
+  open "dash://$1"
+}
