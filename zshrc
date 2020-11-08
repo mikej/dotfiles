@@ -122,3 +122,9 @@ export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 dash() {
   open "dash://$1"
 }
+
+if [[ -d ~/.zsh ]]; then
+  for file in ~/.zsh/*; do
+      source "$file"
+  done
+fi
