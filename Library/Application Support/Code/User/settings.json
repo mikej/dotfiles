@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Nord",
+    "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 0,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.renderWhitespace": "boundary",
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 12,
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "newUntitledFile"
+}
