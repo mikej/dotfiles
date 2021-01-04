@@ -22,8 +22,6 @@
 [core]
 	excludesfile = /Users/mike/.gitignore_global
     pager = delta --plus-color="#012800" --minus-color="#340001"
-[commit]
-	template = /Users/mike/.stCommitMsg
 [push]
     default = current
 [pager]
