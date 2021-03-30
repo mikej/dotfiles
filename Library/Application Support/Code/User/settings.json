@@ -12,7 +12,7 @@
 
     // hide various parts of UI
     "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": false,
     "editor.renderIndentGuides": false,
     "editor.minimap.enabled": false,
