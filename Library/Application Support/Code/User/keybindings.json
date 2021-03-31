@@ -8,5 +8,21 @@
     { "key": "cmd+6","command": "workbench.action.openEditorAtIndex6" },
     { "key": "cmd+7","command": "workbench.action.openEditorAtIndex7" },
     { "key": "cmd+8","command": "workbench.action.openEditorAtIndex8" },
-    { "key": "cmd+9","command": "workbench.action.lastEditorInGroup" }
+    { "key": "cmd+9","command": "workbench.action.lastEditorInGroup" },
+
+    // Panels
+
+    { "key": "cmd+k cmd+e", "command": "workbench.view.explorer" },
+    { "key": "cmd+k cmd+g", "command": "workbench.view.scm" },
+    { "key": "cmd+k cmd+d", "command": "workbench.view.debug" },
+    { "key": "cmd+k cmd+x", "command": "workbench.extensions.action.showInstalledExtensions" },
+    { "key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility" },
+
+    // Switch focus to editor
+
+    { "key": "cmd+e", "command": "workbench.action.focusActiveEditorGroup", },
+
+    // Toogle terminal
+
+    { "key": "cmd+t", "command": "workbench.action.terminal.toggleTerminal" },
 ]
