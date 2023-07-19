@@ -114,7 +114,7 @@ eval "$(nodenv init -)"
 
 eval "$(starship init zsh)"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.bin:$PATH"
 
 export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
 
