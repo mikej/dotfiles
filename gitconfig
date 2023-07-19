@@ -21,7 +21,7 @@
 	clean = git-lfs clean -- %f
 [core]
 	excludesfile = /Users/mike/.gitignore_global
-    pager = delta --plus-color="#012800" --minus-color="#340001"
+    pager = delta
 [push]
     default = current
 [pager]
@@ -30,3 +30,5 @@
     diffFilter = delta --color-only
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
