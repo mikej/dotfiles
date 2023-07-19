@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/mike/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/mike/Library/Python/2.7/bin"
+export PATH="/usr/local/heroku/bin:/Users/mike/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Applications/Postgres.app/Contents/Versions/15/bin:/Users/mike/Library/Python/2.7/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # For Homebrew completions (for Heroku etc.) https://docs.brew.sh/Shell-Completion
