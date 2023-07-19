@@ -1,0 +1,4 @@
+alias sew="sbt explodeWithoutEmber"
+alias se="sbt explode"
+alias sr="sbt refresh"
+alias st="sbt test"
