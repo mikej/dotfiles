@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export EDITOR=/usr/local/bin/vim
+export EDITOR=/opt/homebrew/bin/vim
 
 # don't clear screen, output ANSI colour escape sequences in raw, exit automatically if content fits on the first screen
 export LESS="-XRF"
