@@ -121,11 +121,6 @@ eval "$(nodenv init -)"
 
 eval "$(starship init zsh)"
 
-# Dash.app shell trigger from https://gist.github.com//sparksp/6840365
-dash() {
-  open "dash://$1"
-}
-
 if [[ -d ~/.zsh ]]; then
   for file in ~/.zsh/*; do
       source "$file"
