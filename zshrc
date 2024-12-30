@@ -113,9 +113,6 @@ eval "$(rbenv init -)"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# autoload -U promptinit; promptinit
-# prompt pure
-
 # node
 eval "$(nodenv init -)"
 
