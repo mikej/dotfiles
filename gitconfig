@@ -1,5 +1,5 @@
 [user]
-	email = mikej@users.noreply.github.com
+	email = 30024+mikej@users.noreply.github.com
 	name = Michael Josephson
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
