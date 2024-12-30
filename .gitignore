@@ -1,3 +1,4 @@
+.DS_Store
 *.swp
 
 # ignore all Package Control files except the main preferences file that lists installed packages
