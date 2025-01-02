@@ -116,4 +116,7 @@ if [[ -d ~/.zsh ]]; then
       source "$file"
   done
 fi
+
 eval "$(nodenv init - zsh)"
+
+eval "$(starship init zsh)"
