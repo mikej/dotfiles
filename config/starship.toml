@@ -5,3 +5,5 @@ symbol = "🌱 "
 truncation_length = 20
 [battery]
 disabled = true
+[nodejs]
+symbol = "⬢ "
