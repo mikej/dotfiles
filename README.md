@@ -1,7 +1,7 @@
 mikej dotfiles
 ==============
 
-Repository containing Michael's dotfiles. These are unlikely to be directly
+Repository containing my dotfiles. These are unlikely to be directly
 useful as is, but may contain snippets you'd like to incorporate into your
 own config.
 
