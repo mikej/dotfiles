@@ -15,6 +15,9 @@ set history=1000
 set cursorline
 set expandtab
 
+set noerrorbells
+set visualbell
+
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
