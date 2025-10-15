@@ -35,3 +35,6 @@
 	defaultBranch = main
 [commit]
     verbose = true
+[alias]
+	aliases = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	ignore = "!f() { echo \"$1\" >> .gitignore && git add .gitignore; }; f"
