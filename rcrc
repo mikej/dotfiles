@@ -1,4 +1,4 @@
-EXCLUDES="exclude Library"
+EXCLUDES="exclude"
 DOTFILES_DIRS="$HOME/Projects/dotfiles"
 SYMLINK_DIRS="vim"
 UNDOTTED="Library"
