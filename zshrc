@@ -125,3 +125,6 @@ eval "$(starship init zsh)"
 
 # Postgres command line tools
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+
+# Docker
+export PATH="$HOME/.docker/bin:$PATH"
