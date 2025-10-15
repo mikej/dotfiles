@@ -122,3 +122,6 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 eval "$(starship init zsh)"
+
+# Postgres command line tools
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
