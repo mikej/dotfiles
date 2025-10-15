@@ -118,5 +118,7 @@ if [[ -d ~/.zsh ]]; then
 fi
 
 eval "$(nodenv init - zsh)"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 eval "$(starship init zsh)"
