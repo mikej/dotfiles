@@ -128,3 +128,6 @@ export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # Docker
 export PATH="$HOME/.docker/bin:$PATH"
+
+# Go - make commands added via `go install` available in the path
+export PATH="$HOME/go/bin:$PATH"
